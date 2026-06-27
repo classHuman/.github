@@ -1,8 +1,8 @@
-# Crimson Obsidian Industries & Labs
+# classHuman
 
 **Human-centered AI systems. Agentic workflows. Real-world deployment.**
 
-Crimson Obsidian Industries & Labs is a family-run AI systems company building practical tools for the next phase of human-AI collaboration.
+classHuman is a family-run AI systems company building practical tools for the next phase of human-AI collaboration.
 
 We are currently developing products, prototypes, and internal infrastructure focused on:
 
