@@ -33,7 +33,7 @@ Core focus:
 
 ---
 
-### Aurora 24
+### Ag3net24
 Specialized agent infrastructure intended to support future HADES workflows and agentic operations.
 
 Focus:
