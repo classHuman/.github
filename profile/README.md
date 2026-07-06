@@ -1,4 +1,4 @@
-# classHuman
+# classHuman AI
 
 **Human-centered AI systems. Agentic workflows. Real-world deployment.**
 
