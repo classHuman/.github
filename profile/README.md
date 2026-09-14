@@ -39,18 +39,23 @@ That is the work.
 
 ---
 
-## Ag3nt24 with HADES
+### Ag3nt24 with HADES
 
-**Ag3nt24 Droid Protocol Multi-Agent Framework with Anti-Corruption Layer**, our legacy AI systems modernization framework. *Intelligence is flexible. Authority is stable.*
+Ag3nt24 Droid Protocol Multi-Agent Framework with Anti-Corruption Layer, our legacy AI systems modernization framework. Intelligence is flexible. Authority is stable.
 
-Read every "does" below as "is designed to." It is being built, and it earns every claim the same way anything else does: under a Production Definition of Done, before it is cited as capability.
+Read every "does" below as "is designed to." It is being built in the open, under Apache-2.0 at [MenokoOG/Ag3nt24-oss](https://github.com/MenokoOG/Ag3nt24-oss), and it earns every claim the same way anything else does: under a Production Definition of Done, before it is cited as capability.
 
-- **Twenty-four pattern agents.** Each bound to a pattern that gives it a discipline, a duty, a stance and a failure mode. They do the protocol-droid work at the seam: the inherited AI system's protocols on one side, the modern stack on the other. Persona and duty come from the pattern; everything system-specific is configuration, so nothing about one client's estate leaks into the next.
-- **The kernel is the floor.** Proposals pass the gates, verdicts merge into a Decision Certificate, a human signs, and only then does state change. The gate kernel is compiled COBOL operating on slot indices: same input, same verdict, every time. No sampling, no drift.
-- **Provable.** Append-only audit ledger, signed certificates, evidence hashes on every verdict. No agent carries ledger-write authority.
-- **HADES is the data layer.** It sizes and governs the Data Lake sort (good, bad, messy, work-data, new) and carries the **Human Authorized Data Eradication Sequence**: bad data goes to a sandbox, through a security audit, and is eradicated only when a human signs. The Data Lake houses the framework's Master MCP.
+**Twenty-four pattern roles.** Each bound to an ITF pattern that gives it a discipline, a duty, a stance and a failure mode. They do the protocol-droid work at the seam: the inherited AI system's protocols on one side, the modern stack on the other. Persona and duty come from the pattern; everything system-specific is configuration, so nothing about one client's estate leaks into the next.
 
-**Ag3nt24 is not yet available outside classHuman AI tooling.** We will publish the measures we hold it to before we publish results. No benchmark claims without a benchmark.
+**The boundary is a policy engine.** Every crossing between the inherited estate and the framework passes Cedar: default deny, no I/O, and every policy change proven not to widen access. Each pattern and scout signs what it produces with its own key, so the boundary decides on a verified identity, never a string. Same input, same verdict, every time.
+
+**A human signs.** Clearing the boundary is never authorization to act. Proposals stop at the human gate in HADES, a person signs, and only then does state change. One receipt per decision, hash-chained to the one before it. No agent carries ledger-write authority.
+
+**HADES is the control room.** Human Authorized Data Evaluation System on the way in: the Data Lake sort (good, bad, messy, work-data, new), validation, and the review of each bucket. Human Authorized Data Eradication Sequence on the way out: bad data goes to a sandbox, through a security audit, and is eradicated only when a human signs. The Data Lake houses the framework's Master MCP.
+
+**Built to be run.** Python 3.13 and FastAPI, React, PostgreSQL, one docker compose file. Any model provider behind one adapter. SOLID and full tests on every line of custom code; open-source components consumed, pinned and reviewed rather than forked.
+
+Status, stated plainly: implemented agents 0, 18 decision records, the contracts package and its tests built and green. We will publish the measures we hold it to before we publish results. No benchmark claims without a benchmark.
 
 ---
 
