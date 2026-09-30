@@ -1,13 +1,16 @@
 <!-- Source copy of the GitHub org profile README for github.com/classHuman.
-     v5.0 · 2026-09-07 · rewritten under CLASSHUMAN.md v5.0 (Two-Seat Ruling). Edit here, then sync to the org profile repo. Never edit the copy there directly. -->
+     v7.1 · 2026-09-28 · rewritten under THE GOVERNANCE RULING. Edit here, then sync to the org profile repo. Never edit the copy there directly.
+     Links followed by an inline WO1 comment point at classhuman.org pages that work order 1 creates. Sync only after classhuman-org ships them. -->
 
 # classHuman AI
 
-**Legacy AI Systems Modernization.**
+**AI governance and auditing research for agents and agent harnesses.**
 
-classHuman AI LLC (Washington, USA, est. 2026) modernizes the AI systems businesses built over the last five years and can no longer explain. We read the system first, then choose the pattern. Agents propose. A human signs.
+classHuman AI LLC (Washington, USA, est. 2026) is an AI research organization. An agent is a model inside a harness: the loop, the tools and permissions, the memory, the gates, the human sign-off and the record. Agents act through that harness, so governance lives there or it doesn't live anywhere. We study it, publish the questions before the answers with sources, and build **Ag3nt24** in the open under Apache-2.0 as the research harness we test against. Agents propose. A human signs.
 
-**WDVA Certified Veteran Owned Business · #WDVACHAI26**
+Run by Lawrence Jefferson II while he completes his B.S. in Artificial Intelligence.
+
+**Veteran Owned Business, Washington WDVA #WDVACHAI26**
 
 **Website: [classhuman.org](https://classhuman.org)**
 
@@ -15,56 +18,71 @@ classHuman AI LLC (Washington, USA, est. 2026) modernizes the AI systems busines
 
 ## The problem we work on
 
-Between 2021 and 2026 the field changed under everyone. Companies assembled AI systems as they went: prompt chains, RAG v1, a fine-tune or two, a vector store, orchestration glue, a vendor lock-in nobody chose on purpose. It works, mostly. And now nobody inside can explain what it does, audit it, or sign off on replacing it.
+An agent acts. It calls tools, changes state and spends money. Every safeguard a team claims (step limits, permissions, approvals, logs) is either built into the harness or it's a line in a policy document. The failures we study sit in the harness: a loop with no stop condition, a tool that does more than its name says, a gate that warns and continues, a sign-off no one reads, a log that misses the reason.
 
-That is a legacy system. It just happens to be two years old.
+So the questions are concrete. Which controls stop an unsafe tool call? Can the record explain a decision without the people who made it? When does human sign-off stop being real? Can one agent audit another and find what a person would?
 
-The bottleneck is authority, not capability. Every modern model can write plausible code. What is missing is someone who can establish what the inherited system actually does, certify the data underneath it, and put a human-controlled boundary between the old estate and the new one so the replacement can be signed.
+**One track: inherited estates.** Between 2021 and 2026 the field changed under everyone. Companies assembled AI systems as they went: prompt chains, RAG v1, a fine-tune or two, a vector store, orchestration glue, a vendor lock-in no one chose on purpose. It works, mostly. And now no one inside can explain what it does, audit it, or sign off on replacing it.
 
-That is the work.
-
-## How we do it
-
-**Read the system first, then choose.** There is no single right pattern for modernizing an AI estate, and a shop that prescribes one before reading yours is selling its habit. Evidence decides, per system.
-
-**The Anti-Corruption Layer is ours; the pattern is yours.** Adapter agents speak the inherited system's protocols and data shapes on one side and a modern stack on the other, behind a boundary a person controls. The pattern applied through that boundary (parallel run, shadow traffic, strangler fig, facade, a straight rewrite when that is honestly cheapest) is chosen from your evidence.
-
-**Data integrity is the whole game.** If you can't trust the source, nothing built on it is trustworthy. Every engagement sorts the data before it rebuilds anything on it.
-
-**Humans keep final authority.** Agents propose. Proposals pass gates. A named person signs. A failed gate denies the action, records why, and escalates. There is no "warn and continue."
-
-**The outcome you should notice:** a replacement with minimal downtime, where the only thing users see is better UX.
-
-**Start a conversation:** [classhuman.org/contact](https://classhuman.org/contact). No forms, no trackers, just email.
+That is a legacy system. It just happens to be two years old. Authority is the bottleneck: someone has to establish what the inherited system does, sort the data underneath it, and put a human-controlled boundary between the old estate and the new one so the replacement can be signed.
 
 ---
 
-### Ag3nt24 with HADES
+## How we research
 
-Ag3nt24 Droid Protocol Multi-Agent Framework with Anti-Corruption Layer, our legacy AI systems modernization framework. Intelligence is flexible. Authority is stable.
+**Questions first.** Each research page states its question, method and measure up front.
 
-Read every "does" below as "is designed to." It is being built in the open, under Apache-2.0 at [MenokoOG/Ag3nt24-oss](https://github.com/MenokoOG/Ag3nt24-oss), and it earns every claim the same way anything else does: under a Production Definition of Done, before it is cited as capability.
+**Measures before results.** We define how we'll measure before we run anything, and no page states a result we haven't produced. Right now every open question reads "Open. No results yet."
 
-**Twenty-four pattern roles.** Each bound to an ITF pattern that gives it a discipline, a duty, a stance and a failure mode. They do the protocol-droid work at the seam: the inherited AI system's protocols on one side, the modern stack on the other. Persona and duty come from the pattern; everything system-specific is configuration, so nothing about one client's estate leaks into the next.
+**Sources cited.** Every external claim links to its primary source. Frameworks are "mapped to", and a run result is evidence for a reviewer.
 
-**The boundary is a policy engine.** Every crossing between the inherited estate and the framework passes Cedar: default deny, no I/O, and every policy change proven not to widen access. Each pattern and scout signs what it produces with its own key, so the boundary decides on a verified identity, never a string. Same input, same verdict, every time.
+**Agents propose, humans sign.** Proposals pass gates. A named person signs. A failed gate denies the action, records why, and escalates. There is no "warn and continue."
 
-**A human signs.** Clearing the boundary is never authorization to act. Proposals stop at the human gate in HADES, a person signs, and only then does state change. One receipt per decision, hash-chained to the one before it. No agent carries ledger-write authority.
+Research prose and checklists are CC BY 4.0. Code is Apache-2.0.
 
-**HADES is the control room.** Human Authorized Data Evaluation System on the way in: the Data Lake sort (good, bad, messy, work-data, new), validation, and the review of each bucket. Human Authorized Data Eradication Sequence on the way out: bad data goes to a sandbox, through a security audit, and is eradicated only when a human signs. The Data Lake houses the framework's Master MCP.
+Open to select consulting and mentorship inquiries. **Questions, ideas, contributions:** open an issue on the repo or write via [classhuman.org/contact](https://classhuman.org/contact). No forms, no trackers.
 
-**Built to be run.** Python 3.13 and FastAPI, React, PostgreSQL, one docker compose file. Any model provider behind one adapter. SOLID and full tests on every line of custom code; open-source components consumed, pinned and reviewed rather than forked.
+---
 
-Status, stated plainly: implemented agents 0, 18 decision records, the contracts package and its tests built and green. We will publish the measures we hold it to before we publish results. No benchmark claims without a benchmark.
+## Research
+
+**[Research: governing AI agents](https://classhuman.org/research)** <!-- WO1 --> is the hub.
+
+* [What an agent harness is](https://classhuman.org/research/agent-harness) <!-- WO1 -->: an interactive diagram of seven layers around the model. For each layer: what it does, how it fails, what an auditor asks for.
+* [The harness audit checklist v0.1](https://classhuman.org/research/harness-audit) <!-- WO1 -->: seven control families, each with yes/no/unknown questions and the evidence to request. It runs in the browser, saves locally, exports Markdown and sends nothing anywhere. It's mapped to NIST AI RMF, NIST AI 600-1, ISO/IEC 42001, the EU AI Act and the OWASP Top 10 for LLM Applications.
+* [Research agenda and methods](https://classhuman.org/research/agenda) <!-- WO1 -->: four open questions, each with its method and measure.
+
+Two tracks:
+
+* **Auditing inherited AI estates.** The 2021 to 2026 problem above, restated as audit questions. [classhuman.org/legacy](https://classhuman.org/legacy)
+* **Agent-audits-agent evaluation.** A tester agent runs competence, authority and elicitation suites, graded against cited public sources. A model judge is compared with a pattern grader on the same answers, and both against a qualified human reviewer. Method only, on the [agenda page](https://classhuman.org/research/agenda) <!-- WO1 -->.
+
+Research by Lawrence Jefferson II, B.S. in Artificial Intelligence candidate, American Military University (expected May 2028).
+
+---
+
+## Ag3nt24 with HADES · the open research harness
+
+**Ag3nt24 Droid Protocol Multi-Agent Framework with Anti-Corruption Layer**, the open research harness for our governance work. *Intelligence is flexible. Authority is stable.*
+
+**Apache-2.0, built in the open at [github.com/MenokoOG/Ag3nt24-oss](https://github.com/MenokoOG/Ag3nt24-oss). Contributors welcome.** Read every "does" below as "is designed to." It is being built, and it earns every claim the same way anything else does: under a Production Definition of Done, before it is cited as capability. Phase 1 (the four-gate COBOL kernel, ported and conformance-tested 5/5 against the original) and Phase 2 (the 24-slot pattern registry and translation, 24/24 registered) are done. Phase 3 (the kernel container) is next, designed and not built.
+
+* **Twenty-four pattern slots.** Each is bound to a pattern that gives it a discipline, a duty, a stance and a failure mode. The registry refuses to load if a pattern lacks an agent, an agent lacks a pattern, or a capability is claimed twice. The agents are registered and their behavior is being built.
+* **The kernel is the floor.** Proposals pass the gates, verdicts merge into a Decision Certificate, a human signs, and only then does state change. The gate kernel is compiled COBOL operating on slot indices: same input, same verdict, every time. No sampling, no drift.
+* **Provable.** Append-only audit ledger, signed certificates, evidence hashes on every verdict. No agent carries ledger-write authority.
+* **HADES is the control room at the boundary.** The Human Authorized Data Evaluation System takes data in. The **Human Authorized Data Eradication Sequence** sends it out: bad data goes to a sandbox, through a security audit, and is eradicated only when a human signs. The Data Lake houses the framework's Master MCP.
+
+**Read it, run it, break it, send a PR.** We will publish the measures we hold it to before we publish results. No benchmark claims without a benchmark.
 
 ---
 
 ## Free, for anyone
 
-No signup, no email gate, no tracker.
+No signup, email gate or tracker.
 
 | | |
 |---|---|
+| **Harness audit checklist** | The seven-family checklist above, in the browser. [classhuman.org/research/harness-audit](https://classhuman.org/research/harness-audit) <!-- WO1 --> |
 | **Agent skills** | The skills we use on real work, as installable `.skill` packages and plain `SKILL.md`: `legacy-modernization-scout`, `agent-gate-review`, `hot-path`, `what-did-i-agree-to`. [classhuman.org/skills](https://classhuman.org/skills) |
 | **Learn** | 247 free courses, docs, lectures and certificate tracks for software engineering, AI and ML, from freeCodeCamp, W3Schools, MDN, Python Institute, Scrimba, Coursera, AWS, IBM, Google, Microsoft, Hugging Face, OpenAI, Anthropic, Harvard, MIT and more. Filterable by topic and provider. [classhuman.org/learn](https://classhuman.org/learn) |
 | **ProForma** | Turns a Gen AI initiative into a 5-year cost, benefit and risk projection: payback year, ROI, NPV, IRR, peak funding. Runs in the browser, nothing leaves the device. Apache-2.0. [github.com/MenokoOG/proforma](https://github.com/MenokoOG/proforma) |
@@ -75,7 +93,7 @@ No signup, no email gate, no tracker.
 
 ## Proof
 
-- **In production:** [GunKustom.com](https://gunkustom.com), a full platform rebuild (NestJS + Python vendor-feed normalization, modular-monolith gateway). [PowAlert.com](https://powalert.com), MERN real-time snowfall alerts. Both built as OKO Forge LLC, now classHuman AI LLC.
+- **In production, built for clients before classHuman AI turned to research:** [GunKustom.com](https://gunkustom.com), a full platform rebuild (NestJS + Python vendor-feed normalization, modular-monolith gateway). [PowAlert.com](https://powalert.com), MERN real-time snowfall alerts.
 - **[Willow Bend](https://willow-bend.netlify.app):** a production-shaped demo where the LLM has no write path to appointments and the assistant degrades gracefully to an offline engine.
 - **TACO Loop White Paper v1.0**, published July 2026: a decision-control architecture for unknown-data environments. Core law: unknown data must increase decision discipline, not model confidence. [Read it](https://classhuman.org/whitepaper-models/TACO_Loop_Whitepaper_v1_classHuman.pdf).
 - **Scrimba "Portfolio of the Week"**, May 2026.
@@ -86,7 +104,7 @@ No signup, no email gate, no tracker.
 
 **LAHA: Love All Humans Always.**
 
-AI should support human dignity, creativity, learning, recovery, and decision-making. That means humans in the loop, humans as final authority, accountable agents, accessibility-first design, and systems that fail closed instead of failing loud.
+AI should support human dignity, creativity, learning, recovery, and decision-making. That means humans in the loop, humans as final authority, accountable agents, accessibility-first design, and systems that fail closed.
 
 ---
 
@@ -97,7 +115,7 @@ AI should support human dignity, creativity, learning, recovery, and decision-ma
 | **Lawrence Jefferson II** (Menoko OG) | Founder, CEO, CTO, Architect. 24 years U.S. Army; senior backend and AI/ML engineer. [Portfolio](https://ljefferson-menoko-site.netlify.app/) · [LinkedIn](https://www.linkedin.com/in/lawrence-jefferson-ii-46497075) · [GitHub](https://github.com/MenokoOG) |
 | **Nicale Jefferson** (LuxgirlOG) | Part-Time UX/UI Designer. Co-author of Ag3nt24, TACO Loop and HADES; doctrine author of the classHuman governance framework. [LuxgirlOG](https://luxgirlog.netlify.app/) |
 
-**Contact:** [classhuman.org/contact](https://classhuman.org/contact)
+**Contact:** [classhuman.org/contact](https://classhuman.org/contact) · issues and PRs on [Ag3nt24-oss](https://github.com/MenokoOG/Ag3nt24-oss)
 
 ---
 
