@@ -59,22 +59,7 @@ Two tracks:
 
 Research by Lawrence Jefferson II, B.S. in Artificial Intelligence candidate, American Military University (expected May 2028).
 
----
 
-## Ag3nt24 with HADES · the open research harness
-
-**Ag3nt24 Droid Protocol Multi-Agent Framework with Anti-Corruption Layer**, the open research harness for our governance work. *Intelligence is flexible. Authority is stable.*
-
-**Apache-2.0, built in the open at [github.com/MenokoOG/Ag3nt24-oss](https://github.com/MenokoOG/Ag3nt24-oss). Contributors welcome.** Read every "does" below as "is designed to." It is being built, and it earns every claim the same way anything else does: under a Production Definition of Done, before it is cited as capability. Phase 1 (the four-gate COBOL kernel, ported and conformance-tested 5/5 against the original) and Phase 2 (the 24-slot pattern registry and translation, 24/24 registered) are done. Phase 3 (the kernel container) is next, designed and not built.
-
-* **Twenty-four pattern slots.** Each is bound to a pattern that gives it a discipline, a duty, a stance and a failure mode. The registry refuses to load if a pattern lacks an agent, an agent lacks a pattern, or a capability is claimed twice. The agents are registered and their behavior is being built.
-* **The kernel is the floor.** Proposals pass the gates, verdicts merge into a Decision Certificate, a human signs, and only then does state change. The gate kernel is compiled COBOL operating on slot indices: same input, same verdict, every time. No sampling, no drift.
-* **Provable.** Append-only audit ledger, signed certificates, evidence hashes on every verdict. No agent carries ledger-write authority.
-* **HADES is the control room at the boundary.** The Human Authorized Data Evaluation System takes data in. The **Human Authorized Data Eradication Sequence** sends it out: bad data goes to a sandbox, through a security audit, and is eradicated only when a human signs. The Data Lake houses the framework's Master MCP.
-
-**Read it, run it, break it, send a PR.** We will publish the measures we hold it to before we publish results. No benchmark claims without a benchmark.
-
----
 
 ## Free, for anyone
 
